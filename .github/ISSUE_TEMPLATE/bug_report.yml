@@ -1,0 +1,30 @@
+name: Bug report
+description: Something in OpsTruss does not work as it says it does.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce it
+      description: The smallest workspace or the steps that show it. Leave out credentials, secrets, and anything else private.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What `opstruss version` prints, or the commit you built.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Your operating system and processor, and the versions of the tools involved, such as OpenTofu or Terraform.
