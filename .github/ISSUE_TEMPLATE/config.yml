@@ -1,5 +1,0 @@
-blank_issues_enabled: true
-contact_links:
-  - name: Report a security vulnerability
-    url: https://github.com/opstruss/.github/blob/main/SECURITY.md
-    about: Report it privately, as the security policy says, and never in a public issue.

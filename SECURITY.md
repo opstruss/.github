@@ -2,21 +2,16 @@
 
 ## Reporting a vulnerability
 
-Report a vulnerability in any OpsTruss repository privately, through GitHub:
-on the repository's **Security** tab, choose **Report a vulnerability**. For
-OpsTruss itself that is
-<https://github.com/opstruss/opstruss/security/advisories/new>. Please do not
-open a public issue, pull request, or discussion about it.
+Please report security vulnerabilities privately through GitHub's private
+vulnerability reporting, not through public issues, discussions, or pull
+requests: open the **Security** tab of the affected repository and choose
+**Report a vulnerability**. For OpsTruss itself, go to
+<https://github.com/opstruss/opstruss/security/advisories/new>.
 
-A useful report says what you found, how to reproduce it, which version or
-commit it affects, and what an attacker could do with it. Leave real
-credentials out, even expired ones.
-
-The report stays between you and the maintainers until a fix is published.
-We will tell you when we have read it, keep you informed while it is fixed,
-and credit you in the advisory unless you would rather not be named.
+Include the affected version or commit, the steps to reproduce, and the
+impact you observed.
 
 ## Supported versions
 
-OpsTruss has no release yet, so reports are about the `main` branch. Once
-releases exist, fixes go into the newest one.
+OpsTruss has no release yet. Once it does, security fixes go into the latest
+release.

@@ -1,9 +1,7 @@
 # OpsTruss
 
-**One description. Any tool. One plan, one approval.**
+Event-driven workflow orchestration that runs any tool and hands its typed
+results to the next.
 
-OpsTruss is a composable operations graph, built in the open: build,
-provision, configure, and operate systems as code, with the tools you choose.
-
-It is at its start, and nothing is released yet. The work happens in
-[opstruss/opstruss](https://github.com/opstruss/opstruss).
+OpsTruss is in early development and not ready for use. Development happens
+in [opstruss/opstruss](https://github.com/opstruss/opstruss).
