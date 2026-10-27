@@ -15,6 +15,12 @@ body:
     validations:
       required: true
   - type: input
+    id: catalog
+    attributes:
+      label: Catalog ref
+      description: For a plugin of the catalog, its line in `opstruss.lock`
+      placeholder: github.com/opstruss/catalog@v1, commit 7602462
+  - type: input
     id: os
     attributes:
       label: Operating system

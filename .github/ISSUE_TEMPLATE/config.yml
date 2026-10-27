@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Question
+    url: https://github.com/opstruss/opstruss/discussions
+    about: Ask how to do something, or share what you made
   - name: Security vulnerability
     url: https://github.com/opstruss/opstruss/security/advisories/new
     about: Report it privately, as SECURITY.md says
