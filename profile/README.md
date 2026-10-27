@@ -3,5 +3,6 @@
 Event-driven workflow orchestration that runs any tool and hands its typed
 results to the next.
 
-OpsTruss is in early development and not ready for use. Development happens
-in [opstruss/opstruss](https://github.com/opstruss/opstruss).
+- [Documentation](https://opstruss.github.io/)
+- [opstruss/opstruss](https://github.com/opstruss/opstruss): the binary
+- [opstruss/catalog](https://github.com/opstruss/catalog): the official plugins

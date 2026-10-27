@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in OpsTruss does not work as its documentation says
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove secrets, tokens, and private hosts from everything you paste.
+        A security vulnerability goes to private vulnerability reporting instead.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The output of `opstruss version`
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: macOS 26 on arm64, Ubuntu 24.04 on amd64, …
+    validations:
+      required: true
+  - type: textarea
+    id: project
+    attributes:
+      label: opstruss.yaml
+      description: The smallest project that shows the problem
+      render: yaml
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Commands and output
+      description: What you ran, and what it printed
+      render: console
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/opstruss/opstruss/security/advisories/new
+    about: Report it privately, as SECURITY.md says
+  - name: Documentation
+    url: https://opstruss.github.io/
+    about: Getting started, guides, and the reference

@@ -1,0 +1,21 @@
+name: Feature request
+description: A problem that OpsTruss could solve
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do, and why it is hard now
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: How you do it now
+      description: The workaround, or the other tool, that you use today
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What OpsTruss could do, such as an example of opstruss.yaml
